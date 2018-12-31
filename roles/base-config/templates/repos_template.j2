@@ -1,24 +1,24 @@
 [rhel-7-server-rpms]
 name=Red Hat Enterprise Linux 7
-baseurl={{own_repo_path}}/rhel-7-server-rpms
+baseurl=http://192.168.0.5/repos/rhel-7-server-rpms
 enabled=1
 gpgcheck=0
 
 [rhel-7-server-rh-common-rpms]
 name=Red Hat Enterprise Linux 7 Common
-baseurl={{own_repo_path}}/rhel-7-server-rh-common-rpms
+baseurl=http://192.168.0.5/repos/rhel-7-server-rh-common-rpms
 enabled=1
 gpgcheck=0
 
 [rhel-7-server-extras-rpms]
 name=Red Hat Enterprise Linux 7 Extras
-baseurl={{own_repo_path}}/rhel-7-server-extras-rpms
+baseurl=http://192.168.0.5/repos/rhel-7-server-extras-rpms
 enabled=1
 gpgcheck=0
 
 [rhel-7-server-optional-rpms]
 name=Red Hat Enterprise Linux 7 Optional
-baseurl={{own_repo_path}}/rhel-7-server-optional-rpms
+baseurl=http://192.168.0.5/repos/rhel-7-server-optional-rpms
 enabled=1
 gpgcheck=0
 
@@ -29,4 +29,4 @@ mirrorlist=https://mirrors.fedoraproject.org/metalink?repo=epel-7&arch=$basearch
 failovermethod=priority
 enabled=1
 gpgcheck=0
-#gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
