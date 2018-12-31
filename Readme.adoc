@@ -1,3 +1,17 @@
+==== POC to determine feasibility of using Ansible Tower as CD automation tool 
+
+* Ansible Tower is used as continous deployment automation tool to deploy internal 3 Tier application in QA and Prod Environment.
+
+==== Basic Requirements
+
+* Ansible Tower Homework Lab
+* Open Stack for Ansible
+* Ansible Advanced 
+
+
+
+
+
 ==== Ansible Tower Config
 
 
