@@ -1,0 +1,9 @@
+export TOWER_GUID=797a
+export OSP_GUID=ff7f
+export OPENTLC_LOGIN=jaya.venkatesan-atos.net
+export OPENTLC_PASSWORD=Regit@1$
+export GITHUB_REPO=https://github.com/syntbots/ansible_advance_homework
+export JQ_REPO_BASE=http://www.opentlc.com/download/ansible_bootcamp
+REGION=us-east-1
+RH_MAIL_ID=jaya.venkatesan@atos.net
+
