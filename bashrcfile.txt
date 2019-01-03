@@ -1,5 +1,5 @@
-export TOWER_GUID=797a
-export OSP_GUID=ff7f
+export TOWER_GUID=4047
+export OSP_GUID=b031
 export OPENTLC_LOGIN=jaya.venkatesan-atos.net
 export OPENTLC_PASSWORD=Regit@1$
 export GITHUB_REPO=https://github.com/syntbots/ansible_advance_homework
