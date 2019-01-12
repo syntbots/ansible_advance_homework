@@ -4,10 +4,11 @@
 
 ==== Basic Requirements
 
-
+Order below lab environments.
 * Ansible Tower Homework Lab
 * Open Stack for Ansible
-* Ansible Advanced 
+
+Github url (this one ) to donwload the ansible code in Ansible Tower - Bastion machine 
 
 
 
