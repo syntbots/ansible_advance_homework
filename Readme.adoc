@@ -4,12 +4,14 @@
 
 ==== Basic Requirements
 
-Order below lab environments.
-* Ansible Tower Homework Lab
+lab environments.
+* Ansible Tower Homework Lab 
 * Open Stack for Ansible
 
-Github url (this one ) to donwload the ansible code in Ansible Tower - Bastion machine 
+source code
+* Github url (this one ) to donwload the ansible code 
 
+==== solution design
 
 
 
