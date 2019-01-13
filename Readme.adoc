@@ -13,9 +13,6 @@
 |Ansible Advanced | Production environment servers provisioned in aws
 |===
 
-== Source code
-* Use source code avaiable in this github url to setup QA and Prod enviornment   
-
 == solution design
 
 ===  solution design QA Setup
@@ -24,7 +21,10 @@ image::images/solutiondesign_qa.png[Three Tier QA Environment]
 ===  solution design PROD Setup
 image::images/solutiondesign_prd.png[Three Tier PROD Environment]
 
-.List of Playbooks
+== Source code
+* Use source code avaiable in this github url to setup QA and Prod enviornment   
+
+.List of Playbooks in this gitlab
 [%header,cols=2*]
 |===
 | Files or dir | Purpose
