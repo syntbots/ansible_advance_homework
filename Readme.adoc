@@ -1,15 +1,19 @@
-==== Use case - Ansible Tower as CD automation tool
+= Use case - Ansible Tower as CD automation tool
 
 * Ansible Tower is used as continous deployment automation tool to deploy three Tier application in QA and Prod Environment.
 
-==== Basic Requirements
+== Basic Requirements
 
-lab environments.
-* Ansible Tower Homework Lab 
-* Open Stack for Ansible
+.lab environments
+[%header,cols=2*]
+|===
+| Environment | Purpose
+|Ansible Tower Homework Lab | setup run workflow to provision three tier QA and Prod environment
+|Open Stack for Ansible | QA environment servers provisioned in openstack
+|Ansible Advanced | Production environment servers provisioned in aws
 
-source code
-* Github url (this one ) to donwload the ansible code 
+=== Source code
+* Use source code avaiable in this github url to setup QA and Prod enviornment   
 
 ==== solution design
 
