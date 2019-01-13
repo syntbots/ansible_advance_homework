@@ -19,9 +19,7 @@
 == solution design
 
 image::images/solutiondesign_qa.png[Three Tier QA Environment]
-
-![](images/solutiondesign_prd.png "Three Tier PROD Environment")
-
+image::images/solutiondesign_prd.png[Three Tier PROD Environment]
 
 
 ==== Ansible Tower Config
