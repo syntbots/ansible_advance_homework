@@ -11,11 +11,12 @@
 |Ansible Tower Homework Lab | setup run workflow to provision three tier QA and Prod environment
 |Open Stack for Ansible | QA environment servers provisioned in openstack
 |Ansible Advanced | Production environment servers provisioned in aws
+|===
 
-=== Source code
+== Source code
 * Use source code avaiable in this github url to setup QA and Prod enviornment   
 
-==== solution design
+== solution design
 
 image::images/solutiondesign_qa.png[Three Tier QA Environment]
 
