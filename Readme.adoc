@@ -24,7 +24,7 @@ image::images/solutiondesign_prd.png[Three Tier PROD Environment]
 == Source code
 * Use source code avaiable in this github url to setup QA and Prod enviornment   
 
-.List of Playbooks in this gitlab
+.List of Playbooks in this github
 [%header,cols=2*]
 |===
 | Files or dir | Purpose
