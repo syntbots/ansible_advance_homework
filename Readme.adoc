@@ -13,7 +13,7 @@ source code
 
 ==== solution design
 
-![](images/solutiondesign_qa.png "Three Tier QA Environment")
+image::images/solutiondesign_qa.png[]
 
 ![](images/solutiondesign_prd.png "Three Tier PROD Environment")
 
