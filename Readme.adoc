@@ -18,7 +18,10 @@
 
 == solution design
 
+===  solution design QA Setup
 image::images/solutiondesign_qa.png[Three Tier QA Environment]
+
+===  solution design PROD Setup
 image::images/solutiondesign_prd.png[Three Tier PROD Environment]
 
 
