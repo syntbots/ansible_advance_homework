@@ -40,8 +40,8 @@
 1-4.	Follow step 1 – 4 as in QA setup 
 
 5.	Run order_svc file which will do AWS provision. Below are the steps 
-        [config settings 1](../images/prod_prov_2.JPG)
-	[config settings 2](../images/prod_prov_2.jpg)
+        ![order_svc config settings 1](../images/prod_prov_1.JPG)
+	![config settings 2](../images/prod_prov_2.JPG)
      
 6.	Executing 3tier app prod will install services as follows
 	* Haproxy in frontend 
