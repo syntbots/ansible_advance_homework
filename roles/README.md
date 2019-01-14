@@ -54,10 +54,24 @@
 
 9.	If PROD setup is done properly smoke test will be success.
 
-
-
-
 ## Design Ansible Tower Workflow
+SSH to  Bastion
+Change to cloned repo directory
+Set the environment variables
+export TOWER_GUID=xxxx
+export OSP_GUID=xxxx
+export OPENTLC_LOGIN=xxxxxxxxxxxxxxx
+export OPENTLC_PASSWORD=xxxxxx
+export GITHUB_REPO=https://github.com/syntbots/ansible_advance_homework
+export JQ_REPO_BASE=http://www.opentlc.com/download/ansible_bootcamp
+REGION=us-east-1
+RH_MAIL_ID=xxxxxxxxxxxxxxx
+
+Execute site-config-tower play book to setup job and workflow templates to provision and run services in QA and PROD environments 
+Dynamic inventory  to fetch EC2 instance’s facts will be created; It  uses tag:instance_filter=three-tier-app-jaya-venkatesan-atos.net
+Read Only AWS-credentials are created to run dynamic inventory
+![desogn_workflow_config settings 1](../images/prod_prov_1.JPG)
+
 
 
 
