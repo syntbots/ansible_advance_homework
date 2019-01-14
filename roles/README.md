@@ -16,17 +16,28 @@ export OSP_GUID=xxxx
       *	 Custom image named rhel_image will be created to provision RHOSP instances
       *	 SSH connectivity using cloud-user account between bastion and workstation using openstack keys files
       *	 Setup workstation as isolation node ; instance group osp will be created
-  7.	Execute site-osp-instances.yml play book which invokes osp-servers  role to provision RHOSP instances
-  8.	Site-3tier-app.yml will install services as follows
+7.	Execute site-osp-instances.yml play book which invokes osp-servers  role to provision RHOSP instances
+8.	Site-3tier-app.yml will install services as follows
       *	Haproxy in frontend 
       *	Tomcat in app1 and app2
       *	Postgres in appdb1
-  9.	Execute site-smoke-osp.yml playbook to run smoke test on QA environment
-  10.	If QA setup is done properly smoke test will be success.
-
+9.	Execute site-smoke-osp.yml playbook to run smoke test on QA environment
+10.	If QA setup is done properly smoke test will be success.
 
 
 ## Provision PROD Environment
+1.	Follow step 1 – 4 as in QA setup 
+2.	Run order_svc file which will do AWS provision. Below are the steps 
+     prod_prov_1.JPG
+     prod_prov_2.JPG
+3.	3tier app prod will install services as follows
+     * Haproxy in frontend 
+	* Tomcat in app1 and app2
+	* Postgres in appdb1
+4.	Execute aws_status_check.yml  playbook to verify that services are up and running 
+5.	Execute  site-smoketest-aws.yml play book  to smoke test on PROD environment
+6.	If PROD setup is done properly smoke test will be success.
+
 
 
 
